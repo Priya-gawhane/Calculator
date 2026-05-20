@@ -7,7 +7,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://calculator-5rl9.vercel.app/calculate"],          # tighten this in production
+    allow_origins=["https://calculator-5rl9.vercel.app"],          # tighten this in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
